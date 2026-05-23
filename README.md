@@ -138,16 +138,10 @@ jupyter notebook notebooks/03_rfm_segmentation.ipynb
 # Bước 4: Mở dashboard
 # Mở file powerbi/ecommerce_dashboard.pbix bằng Power BI Desktop
 ```
-## Hạn chế & Hướng phát triển
+## Hạn chế
 
 ### Hạn chế của dataset
 - **Không có cột `Profit` và `Discount`** — phải dùng proxy thông qua biến động `UnitPrice`
 - **Không có thông tin giao hàng** (thời gian giao, phí ship) — không thể phân tích trực tiếp tác động giao hàng đến tỷ lệ hoàn
 - **Không có demographic của khách hàng** (tuổi, giới tính) — chỉ có quốc gia
 - Dữ liệu chỉ có **1 năm** — chưa đủ để phân tích xu hướng dài hạn
-
-### Hướng phát triển
-- [ ] Thêm dự đoán Customer Lifetime Value (CLV) bằng mô hình BG/NBD
-- [ ] Xây dựng hệ thống recommendation dựa trên collaborative filtering
-- [ ] Tự động hóa pipeline bằng Airflow
-- [ ] Triển khai dashboard lên Power BI Service và schedule refresh
