@@ -1,11 +1,7 @@
 # E-Commerce Analytics Dashboard
 
 > Phân tích hành vi mua sắm và phân khúc khách hàng từ **541,909 giao dịch** của một nhà bán lẻ trực tuyến tại Anh, sử dụng **Python**, **SQL** và **Power BI**
-
-## Giới thiệu
-
-Project này được thực hiện trong khuôn khổ môn **Trực quan hóa Dữ liệu**, với mục tiêu xây dựng một pipeline phân tích dữ liệu thương mại điện tử hoàn chỉnh: từ **thu thập – làm sạch – phân tích – trực quan hóa – đưa ra đề xuất kinh doanh**.
-
+---
 Dataset được sử dụng là **Online Retail Dataset** — ghi lại toàn bộ giao dịch của một công ty bán lẻ trực tuyến chuyên về quà tặng và đồ trang trí tại Vương quốc Anh, trong giai đoạn **01/12/2010 – 09/12/2011**.
 ---
 
